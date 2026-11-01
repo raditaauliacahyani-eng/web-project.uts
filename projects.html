@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Radita Aulia Cahayani</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .project-grid {
+      padding: 55px 10% 30px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 30px;
+      max-width: 1100px;
+      margin: 0 auto;
+      align-items: start;
+    }
+
+    .work-card {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 14px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .work-card img {
+      display: block;
+      width: 100%;
+      height: 520px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 9px;
+      background: var(--rose);
+    }
+
+    .work-info {
+      padding: 20px 8px 12px;
+    }
+
+    .work-info h2 {
+      font: 28px 'Playfair Display';
+      margin: 8px 0;
+    }
+
+    .work-info p {
+      font-size: 13px;
+      line-height: 1.8;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    @media (max-width: 620px) {
+      .project-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        padding: 35px 5% 20px;
+      }
+
+      .work-card {
+        padding: 8px;
+      }
+
+      .work-card img {
+        height: 320px;
+      }
+
+      .work-info {
+        padding: 13px 4px 8px;
+      }
+
+      .work-info h2 {
+        font-size: 19px;
+      }
+
+      .work-info p {
+        font-size: 11px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="topbar">
+  <a class="logo" href="index.html">r<span>.</span></a>
+
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="journey.html">Journey</a>
+    <a href="interests.html">Interests</a>
+    <a href="skills.html">Skills</a>
+    <a class="active" href="projects.html">a little story</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <a class="nav-cta" href="contact.html">
+    Let's connect <span>↗️</span>
+  </a>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="kicker">
+      <i></i> ✦ LITTLE MEMORIES, BIG STORIES
+    </div>
+
+    <h1>A glimpse of<br><em>my journey.</em></h1>
+
+    <p class="lead">
+      A little collection of memories, friendships, 
+      and moments that are part of my story.
+    </p>
+  </section>
+
+  <section class="project-grid">
+
+    <!-- PROJECT PERTAMA -->
+    <article class="work-card">
+
+      <img src="images/project-1.jpg" alt="Project one">
+
+      <div class="work-info">
+        <span>01 / CHILDHOOD MEMORY</span>
+
+        <h2>The Little Me</h2>
+
+        <p>
+          A little throwback to my childhood. Kenangan sederhana dari 
+          masa kecil yang akan selalu menjadi bagian dari diriku
+        </p>
+      </div>
+
+    </article>
+
+    <!-- PROJECT KEDUA -->
+    <article class="work-card">
+
+      <img src="images/project-2.jpg" alt="Project two">
+
+      <div class="work-info">
+        <span>02 / FRIENDSHIP & MEMORIES</span>
+
+        <h2>My Favorite People</h2>
+
+        <p>
+          Different campuses, different journeys, but one friendship. Bersyukur punya
+           teman yang bisa berbagi cerita dan menciptakan kenangan bersama.
+        </p>
+      </div>
+
+    </article>
+
+  </section>
+
+  <div class="note-box">
+    <span>LITTLE MOMENTS, BIG MEMORIES</span>
+    <p>
+      Every picture has its own story. Dari seorang anak kecil yang dulu hanya menikmati hari-harinya, hingga sekarang menjadi seseorang yang terus belajar, tumbuh, dan menemukan banyak hal baru.
+
+Foto pertama adalah little memories from my childhood, bagian kecil dari perjalanan hidup yang selalu menarik untuk dikenang.
+
+Foto kedua adalah tentang friendship. Bertemu, berbagi cerita, dan menciptakan kenangan bersama. Even though we have different campuses and different paths, the friendship and memories will always be special.
+
+These are just little pieces of my life, but they mean a lot to me. ♡
+    </p>
+  </div>
+
+</main>
+
+<footer>
+  <span>RADITA AULIA CAHAYANI</span>
+  <span>Personal portfolio · 2026</span>
+  <a href="index.html">Back to home ↑</a>
+</footer>
+
+</body>
+</html>
